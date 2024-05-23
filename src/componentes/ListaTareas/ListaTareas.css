@@ -1,0 +1,30 @@
+#listaTareas {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border-radius: 6px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tarea {
+    flex: 1;
+  }
+  
+  .boton-eliminar {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .boton-eliminar:hover {
+    background-color: #0056b3;
+  }
+  

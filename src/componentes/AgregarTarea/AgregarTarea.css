@@ -1,0 +1,47 @@
+#agregar-tarea {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+  }
+  
+  .input-container input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  .input-container button {
+    padding: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .input-container button:hover {
+    background-color: #45a049;
+  }
+  #send {
+    width: 30%;
+    padding: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#send:hover {
+    background-color: #45a049;
+}

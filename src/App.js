@@ -1,25 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import Titulo from './componentes/Titulo/Titulo.js';
+import AgregarTarea from './componentes/AgregarTarea/AgregarTarea.js';
+import ListaTarea from './componentes/ListaTareas/ListaTareas.js';
+import TareaMasRapida from './componentes/TareaMasRapida/TareaMasRapida.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Titulo />
+      <AgregarTarea />
+      <ListaTarea />
+      <TareaMasRapida></TareaMasRapida>
     </div>
   );
 }
 
 export default App;
+
+
