@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import './AgregarTarea.css';
+
 
 function AgregarTarea({ onAgregarTarea }) {
   const [inputTarea, setInputTarea] = useState('');
